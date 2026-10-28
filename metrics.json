@@ -1,0 +1,9 @@
+{
+  "model": "hgb_regularized",
+  "cv_roc_auc": 0.7869688737184813,
+  "threshold": 0.2582928825399703,
+  "test_roc_auc": 0.7822356009147452,
+  "test_precision": 0.5051282051282051,
+  "test_recall": 0.5938206480783723,
+  "test_f1": 0.5458953931416696
+}
