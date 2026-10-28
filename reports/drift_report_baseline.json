@@ -1,0 +1,26 @@
+{
+  "PAY_0": {
+    "psi": 0.007513373225257656,
+    "level": "stable"
+  },
+  "LIMIT_BAL": {
+    "psi": 0.021397313559427523,
+    "level": "stable"
+  },
+  "AGE": {
+    "psi": 0.025761234074827097,
+    "level": "stable"
+  },
+  "BILL_AMT1": {
+    "psi": 0.012489658636382142,
+    "level": "stable"
+  },
+  "PAY_AMT1": {
+    "psi": 0.020870996791901804,
+    "level": "stable"
+  },
+  "predicted_probability": {
+    "psi": 0.039412418250043865,
+    "level": "stable"
+  }
+}
