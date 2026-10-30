@@ -66,7 +66,7 @@ python -m src.data.validation data/raw/UCI_Credit_Card.csv --dump-suite data/exp
 mlflow ui --backend-store-uri sqlite:///mlflow.db
 ```
 
-Откройте http://localhost:5000, эксперимент `Credit_Default_Prediction`. Каждый запуск логирует параметры, `cv_roc_auc`, `threshold`, `test_roc_auc`, `test_precision`, `test_recall`, `test_f1`, ROC-кривую и модель. Лучшая модель выбирается по `cv_roc_auc` на train, порог классификации по out-of-fold предсказаниям train, test не участвует в выборе.
+Запускайте из корня репозитория после `dvc repro`: файл `mlflow.db` создаётся при обучении и читается из текущей папки. Откройте http://localhost:5000, эксперимент `Credit_Default_Prediction`. Каждый запуск логирует параметры, `cv_roc_auc`, `threshold`, `test_roc_auc`, `test_precision`, `test_recall`, `test_f1`, ROC-кривую и модель. Лучшая модель выбирается по `cv_roc_auc` на train, порог классификации по out-of-fold предсказаниям train, test не участвует в выборе.
 
 ## Тесты и стиль
 
