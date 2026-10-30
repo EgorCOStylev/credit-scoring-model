@@ -78,7 +78,7 @@ flake8
 
 ## API и Docker
 
-После `dvc repro` или `dvc pull` в `models/` лежит модель.
+После `dvc repro` в `models/` лежит модель.
 
 ```
 bash scripts/run_docker.sh
