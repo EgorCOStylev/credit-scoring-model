@@ -36,6 +36,9 @@ pip install -r requirements-dev.txt
 
 ## DVC
 
+`dvc repro` требует файл `data/raw/UCI_Credit_Card.csv`, он не хранится в git: см. раздел «Данные».
+
+
 ```
 git init
 dvc init
